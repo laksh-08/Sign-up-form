@@ -4,7 +4,4 @@ function validatePassword() {
     if(pw1 != pw2){
      alert('*passsword not Match');
     }
-    else{
-     alert('');
-    }
 }
