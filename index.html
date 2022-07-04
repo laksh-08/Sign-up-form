@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <!--stylesheet-->
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>SignUp</h1>
+    <div class="container">
+      <form action="" method="get">
+        <input
+          type="text"
+          name="first"
+          placeholder="Firstname"
+          autocomplete="off"
+          required
+        />
+        <input
+          type="text"
+          name="second"
+          placeholder="Secondname"
+          autocomplete="off"
+        />
+        <input
+          type="email"
+          name="mail"
+          placeholder="Enter Your Email"
+          autocomplete="off"
+          required
+        />
+        <input
+          type="number"
+          name="number"
+          placeholder="Ph Number"
+          autocomplete="off"
+        />
+        <input
+          type="password"
+          name="password1"
+          placeholder="Password"
+          id="pw"
+          autocomplete="off"
+          required
+        />
+        <input
+          type="password"
+          name="password2"
+          placeholder="Confirm Password"
+          id="confirm-pw"
+          autocomplete="off"
+          required
+        />
+
+        <!--Submit button-->
+
+        <button type="submit" onClick="validatePassword()">
+          Create Account
+        </button>
+      </form>
+    </div>
+    <p>already have an account?<a href="#">login</a></p>
+
+    <!--javascript-->
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
